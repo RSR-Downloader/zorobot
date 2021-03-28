@@ -79,7 +79,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Me to Your Group ➕", url="t.me/zamzo_bot?startgroup=true"
+            text="➕ Add Me to Your Group ➕", url="t.me/mizoro_bot?startgroup=true"
         ),
     ],
 ]
@@ -702,7 +702,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Ka inring e😊")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Ka nung leh ta e😊")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
